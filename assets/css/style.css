@@ -2,6 +2,21 @@ body {
 	font-family: 'Montserrat', sans-serif;
 }
 
-h1 {
+h1, .letra-cool {
 	font-family: 'Kaushan Script', cursive;
+}
+
+.micolor {
+	background-color: #3FBFB6;
+}
+
+
+.amable-section {
+	background-image: url('../img/AmablePerfil.JPG');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	padding-top: 40rem;
+	padding-bottom: 20rem;
+	margin-top: 5.5rem;
 }
