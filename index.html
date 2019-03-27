@@ -16,7 +16,7 @@
 	<!--Font Awesome-->
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 	<!-- Mi estilo -->
-	<link rel="stylesheet" type="" href="assets/css/style.css">
+	<link rel="stylesheet" href="assets/css/style.css">
 	<!-- Pregunta: porque al colocar type="assets/css", deja de funcionar el llamado a mi CSS -->
 
 </head>
@@ -99,7 +99,7 @@
 
 	<!-- 5. Mis trabajos -->
 	<section class="container-fluid text-center micolor py-5" id="trabajos">
-		<span data-toggle="modal" data-target="#trabajosModal"><h2 class="letra-cool">MIS ÚLTIMOS TRABAJOS</h2></span>
+		<h2 data-toggle="modal" data-target="#trabajosModal" class="letra-cool">MIS ÚLTIMOS TRABAJOS</h2>
 		<p class="font-weight-bold">________________</p>
 
 	<div class="container d-sm-none d-md-block d-none d-sm-block py-5">
@@ -205,7 +205,7 @@
 				</div>
 		      </div>
 		      <div class="modal-footer">
-		        <button type="button" class="btn btn-primary">Cerrar</button>
+		        <button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
 		      </div>
 		    </div>
 		  </div>
