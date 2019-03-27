@@ -11,10 +11,10 @@ $(function(){
 			$("html, body").animate({
 				scrollTop: $(gato).offset().top-150
 			}, 1500, function(){
-				window.location.hash = gato;
+				//window.location.hash = gato;
+				//Pregunta: ¿Que hace esta linea?
 			});
 		}
-		//Pregunta: Como hacer que el offset funcione bien
 	});
 
 
